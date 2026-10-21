@@ -23,7 +23,7 @@ st.markdown("""<style>
 .section-note {color:#62758b; font-size:.92rem; margin-bottom:12px;}
 </style>""", unsafe_allow_html=True)
 
-DATA_PATH = "/content/drive/MyDrive/데이터분석(26.10.19~21)/analysis_result.csv"
+DATA_PATH = "analysis_result.csv"
 
 @st.cache_data(show_spinner="분석 데이터를 불러오는 중입니다...")
 def load_data(path):
